@@ -9,7 +9,7 @@ import json
 API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=API_KEY)
 
-model = genai.GenerativeModel('gemini-2.5-flash') 
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 app = FastAPI()
 # ... (el resto del código queda exactamente igual)
